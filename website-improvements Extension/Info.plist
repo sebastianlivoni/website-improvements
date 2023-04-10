@@ -8,6 +8,10 @@
 		<array>
 			<dict>
 				<key>Style Sheet</key>
+				<string>github/styling.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
 				<string>google/styling.css</string>
 			</dict>
 			<dict>

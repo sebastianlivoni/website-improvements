@@ -23,8 +23,11 @@
             "js": [ "reddit/content.js" ],
             "css": ["reddit/styling.css"],
             "matches": [ "*://*.reddit.com/*" ],
+        },
+        {
+            "js": [ "github/content.js" ],
+            "matches": [ "*://*.github.com/*" ],
         }
-        
     ],
 
     "action": {
