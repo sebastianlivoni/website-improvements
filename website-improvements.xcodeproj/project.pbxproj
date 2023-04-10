@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961E5F7929E4935D00D75D36 /* google in Resources */ = {isa = PBXBuildFile; fileRef = 961E5F7829E4935D00D75D36 /* google */; };
 		96B7E68629E48EE800DA36CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7E68529E48EE800DA36CD /* AppDelegate.swift */; };
 		96B7E68A29E48EE800DA36CD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68829E48EE800DA36CD /* Main.html */; };
 		96B7E68C29E48EE800DA36CD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68B29E48EE800DA36CD /* Icon.png */; };
@@ -23,11 +24,11 @@
 		96B7E6BD29E48EE900DA36CD /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6BC29E48EE900DA36CD /* _locales */; };
 		96B7E6BF29E48EE900DA36CD /* images in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6BE29E48EE900DA36CD /* images */; };
 		96B7E6C129E48EE900DA36CD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6C029E48EE900DA36CD /* manifest.json */; };
-		96B7E6C329E48EE900DA36CD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6C229E48EE900DA36CD /* background.js */; };
 		96B7E6C529E48EE900DA36CD /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6C429E48EE900DA36CD /* content.js */; };
 		96B7E6C729E48EE900DA36CD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6C629E48EE900DA36CD /* popup.html */; };
 		96B7E6C929E48EE900DA36CD /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6C829E48EE900DA36CD /* popup.css */; };
 		96B7E6CB29E48EE900DA36CD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6CA29E48EE900DA36CD /* popup.js */; };
+		96B7E6EA29E4927100DA36CD /* reddit in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E6E929E4927100DA36CD /* reddit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		961E5F7829E4935D00D75D36 /* google */ = {isa = PBXFileReference; lastKnownFileType = folder; path = google; sourceTree = "<group>"; };
 		96B7E68229E48EE800DA36CD /* website-improvements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "website-improvements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B7E68529E48EE800DA36CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B7E68929E48EE800DA36CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -90,13 +92,13 @@
 		96B7E6BC29E48EE900DA36CD /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		96B7E6BE29E48EE900DA36CD /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		96B7E6C029E48EE900DA36CD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		96B7E6C229E48EE900DA36CD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		96B7E6C429E48EE900DA36CD /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		96B7E6C629E48EE900DA36CD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		96B7E6C829E48EE900DA36CD /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		96B7E6CA29E48EE900DA36CD /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		96B7E6CC29E48EE900DA36CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B7E6CD29E48EE900DA36CD /* website_improvements_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = website_improvements_Extension.entitlements; sourceTree = "<group>"; };
+		96B7E6E929E4927100DA36CD /* reddit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = reddit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,10 +211,11 @@
 		96B7E6BB29E48EE900DA36CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				961E5F7829E4935D00D75D36 /* google */,
+				96B7E6E929E4927100DA36CD /* reddit */,
 				96B7E6BC29E48EE900DA36CD /* _locales */,
 				96B7E6BE29E48EE900DA36CD /* images */,
 				96B7E6C029E48EE900DA36CD /* manifest.json */,
-				96B7E6C229E48EE900DA36CD /* background.js */,
 				96B7E6C429E48EE900DA36CD /* content.js */,
 				96B7E6C629E48EE900DA36CD /* popup.html */,
 				96B7E6C829E48EE900DA36CD /* popup.css */,
@@ -375,10 +378,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B7E6C329E48EE900DA36CD /* background.js in Resources */,
 				96B7E6C929E48EE900DA36CD /* popup.css in Resources */,
+				96B7E6EA29E4927100DA36CD /* reddit in Resources */,
 				96B7E6C729E48EE900DA36CD /* popup.html in Resources */,
 				96B7E6BF29E48EE900DA36CD /* images in Resources */,
+				961E5F7929E4935D00D75D36 /* google in Resources */,
 				96B7E6C129E48EE900DA36CD /* manifest.json in Resources */,
 				96B7E6BD29E48EE900DA36CD /* _locales in Resources */,
 				96B7E6C529E48EE900DA36CD /* content.js in Resources */,

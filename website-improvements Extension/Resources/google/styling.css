@@ -1,0 +1,32 @@
+/* Hiding "gmail" a-tag and "images" */
+.gb_r.gb_s {
+    display: none;
+}
+
+/* Hide "translate this page" */
+div.eFM0qc.BCF2pd {
+    display: none;
+}
+
+/* Hide "Google is available on x language" */
+div#SIvCob {
+    display: none;
+}
+
+/* Hide bottom navbar */
+div.o3j99.c93Gbe {
+    display: none;
+}
+
+/* Hide keyboard icon */
+span.ly0Ckb {
+    display: none;
+}
+
+/* Hide buttons */
+
+/*
+div.FPdoLc.lJ9FBc {
+    display: none;
+}
+*/

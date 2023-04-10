@@ -14,14 +14,18 @@
         "512": "images/icon-512.png"
     },
 
-    "background": {
-        "service_worker": "background.js"
-    },
-
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
+    "content_scripts": [
+        {
+            "css": ["google/styling.css"],
+            "matches": [ "*://*.google.com/*", "*://*.google.dk/*" ],
+        },
+        {
+            "js": [ "reddit/content.js" ],
+            "css": ["reddit/styling.css"],
+            "matches": [ "*://*.reddit.com/*" ],
+        }
+        
+    ],
 
     "action": {
         "default_popup": "popup.html",
