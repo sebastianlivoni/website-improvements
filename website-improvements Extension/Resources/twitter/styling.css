@@ -4,8 +4,3 @@
 [data-testid="cellInnerDiv"]:has(svg + [dir="auto"]) {
   display: none;
 }
-
-/* hide what's happening section */
-[aria-label="Timeline: Trending now"] {
-  display: none !important;
-}

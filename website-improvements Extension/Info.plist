@@ -8,6 +8,10 @@
 		<array>
 			<dict>
 				<key>Style Sheet</key>
+				<string>proton/styling.css</string>
+			</dict>
+			<dict>
+				<key>Style Sheet</key>
 				<string>twitter/styling.css</string>
 			</dict>
 			<dict>

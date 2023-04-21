@@ -31,18 +31,22 @@
         {
             "css": [ "twitter/styling.css" ],
             "matches": [ "*://*.twitter.com/*" ],
+        },
+        {
+            "css": [ "proton/styling.css" ],
+            "matches": [ "*://*.proton.me/*" ],
         }
     ],
 
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
-            "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png",
-            "48": "images/toolbar-icon-48.png",
-            "72": "images/toolbar-icon-72.png"
+            "16": "images/rocket-icon-16.png",
+            "19": "images/rocket-icon-19.png",
+            "32": "images/rocket-icon-32.png",
+            "38": "images/rocket-icon-38.png",
+            "48": "images/rocket-icon-48.png",
+            "72": "images/rocket-icon-72.png"
         }
     },
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		961E5F7929E4935D00D75D36 /* google in Resources */ = {isa = PBXBuildFile; fileRef = 961E5F7829E4935D00D75D36 /* google */; };
 		967BDDF529F330890019A7BC /* twitter in Resources */ = {isa = PBXBuildFile; fileRef = 967BDDF429F330890019A7BC /* twitter */; };
+		96A0C02829F3371800335377 /* proton in Resources */ = {isa = PBXBuildFile; fileRef = 96A0C02729F3371800335377 /* proton */; };
 		96B7E68629E48EE800DA36CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7E68529E48EE800DA36CD /* AppDelegate.swift */; };
 		96B7E68A29E48EE800DA36CD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68829E48EE800DA36CD /* Main.html */; };
 		96B7E68C29E48EE800DA36CD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68B29E48EE800DA36CD /* Icon.png */; };
@@ -73,6 +74,7 @@
 /* Begin PBXFileReference section */
 		961E5F7829E4935D00D75D36 /* google */ = {isa = PBXFileReference; lastKnownFileType = folder; path = google; sourceTree = "<group>"; };
 		967BDDF429F330890019A7BC /* twitter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = twitter; sourceTree = "<group>"; };
+		96A0C02729F3371800335377 /* proton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = proton; sourceTree = "<group>"; };
 		96B7E68229E48EE800DA36CD /* website-improvements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "website-improvements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B7E68529E48EE800DA36CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B7E68929E48EE800DA36CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 		96B7E6BB29E48EE900DA36CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				96A0C02729F3371800335377 /* proton */,
 				967BDDF429F330890019A7BC /* twitter */,
 				96D9DA5F29E4965F00385460 /* github */,
 				961E5F7829E4935D00D75D36 /* google */,
@@ -387,6 +390,7 @@
 				96B7E6C729E48EE900DA36CD /* popup.html in Resources */,
 				96B7E6BF29E48EE900DA36CD /* images in Resources */,
 				961E5F7929E4935D00D75D36 /* google in Resources */,
+				96A0C02829F3371800335377 /* proton in Resources */,
 				96B7E6C129E48EE900DA36CD /* manifest.json in Resources */,
 				96B7E6BD29E48EE900DA36CD /* _locales in Resources */,
 				96B7E6CB29E48EE900DA36CD /* popup.js in Resources */,
