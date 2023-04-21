@@ -1,0 +1,11 @@
+/* Stolen from:  https://pawelgrzybek.com/remove-ads-from-your-twitter-timeline-with-a-few-lines-of-css/ */
+
+/* hide promoted tweets */
+[data-testid="cellInnerDiv"]:has(svg + [dir="auto"]) {
+  display: none;
+}
+
+/* hide what's happening section */
+[aria-label="Timeline: Trending now"] {
+  display: none !important;
+}

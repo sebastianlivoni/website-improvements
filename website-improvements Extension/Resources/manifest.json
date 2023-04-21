@@ -27,6 +27,10 @@
         {
             "js": [ "github/content.js" ],
             "matches": [ "*://*.github.com/*" ],
+        },
+        {
+            "css": [ "twitter/styling.css" ],
+            "matches": [ "*://*.twitter.com/*" ],
         }
     ],
 
