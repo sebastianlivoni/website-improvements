@@ -1,3 +1,13 @@
 [data-testid="promotion-banner"] {
     display: none !important;
 }
+
+ .user-initials {
+     background-image: url('https://cloud.livoni.me/apps/files_sharing/publicpreview/JYaP5xC8YFFnziz?file=/&fileId=433&x=3840&y=2160&a=true');
+     background-repeat: no-repeat;
+     background-size: 26px;
+ }
+
+ .user-initials span {
+     display: none
+ }
