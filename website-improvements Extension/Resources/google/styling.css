@@ -1,6 +1,5 @@
-/* Hiding "gmail" a-tag and "images" */
-.gb_r.gb_s {
-    display: none;
+a[href*="mail.google.com"], a[href*="accounts.google.com"], a[aria-label="Google-apps"], a[aria-label="Søg efter billeder (åbner en ny fane)"] {
+  display: none !important;
 }
 
 /* Hide "translate this page" */
@@ -22,11 +21,3 @@ div.o3j99.c93Gbe {
 span.ly0Ckb {
     display: none;
 }
-
-/* Hide buttons */
-
-/*
-div.FPdoLc.lJ9FBc {
-    display: none;
-}
-*/
