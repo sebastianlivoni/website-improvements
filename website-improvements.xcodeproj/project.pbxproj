@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9616B1122A32833500821E22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9616B1112A32833500821E22 /* Icon.png */; };
 		961E5F7929E4935D00D75D36 /* google in Resources */ = {isa = PBXBuildFile; fileRef = 961E5F7829E4935D00D75D36 /* google */; };
 		967BDDF529F330890019A7BC /* twitter in Resources */ = {isa = PBXBuildFile; fileRef = 967BDDF429F330890019A7BC /* twitter */; };
 		96A0C02829F3371800335377 /* proton in Resources */ = {isa = PBXBuildFile; fileRef = 96A0C02729F3371800335377 /* proton */; };
 		96B7E68629E48EE800DA36CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7E68529E48EE800DA36CD /* AppDelegate.swift */; };
 		96B7E68A29E48EE800DA36CD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68829E48EE800DA36CD /* Main.html */; };
-		96B7E68C29E48EE800DA36CD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68B29E48EE800DA36CD /* Icon.png */; };
 		96B7E68E29E48EE800DA36CD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68D29E48EE800DA36CD /* Style.css */; };
 		96B7E69029E48EE800DA36CD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 96B7E68F29E48EE800DA36CD /* Script.js */; };
 		96B7E69229E48EE800DA36CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7E69129E48EE800DA36CD /* ViewController.swift */; };
@@ -72,13 +72,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9616B1112A32833500821E22 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		961E5F7829E4935D00D75D36 /* google */ = {isa = PBXFileReference; lastKnownFileType = folder; path = google; sourceTree = "<group>"; };
 		967BDDF429F330890019A7BC /* twitter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = twitter; sourceTree = "<group>"; };
 		96A0C02729F3371800335377 /* proton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = proton; sourceTree = "<group>"; };
 		96B7E68229E48EE800DA36CD /* website-improvements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "website-improvements.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B7E68529E48EE800DA36CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B7E68929E48EE800DA36CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		96B7E68B29E48EE800DA36CD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		96B7E68D29E48EE800DA36CD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		96B7E68F29E48EE800DA36CD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		96B7E69129E48EE800DA36CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 		96B7E68729E48EE800DA36CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9616B1112A32833500821E22 /* Icon.png */,
 				96B7E68829E48EE800DA36CD /* Main.html */,
-				96B7E68B29E48EE800DA36CD /* Icon.png */,
 				96B7E68D29E48EE800DA36CD /* Style.css */,
 				96B7E68F29E48EE800DA36CD /* Script.js */,
 			);
@@ -357,7 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B7E68C29E48EE800DA36CD /* Icon.png in Resources */,
+				9616B1122A32833500821E22 /* Icon.png in Resources */,
 				96B7E69529E48EE800DA36CD /* Main.storyboard in Resources */,
 				96B7E69029E48EE800DA36CD /* Script.js in Resources */,
 				96B7E68A29E48EE800DA36CD /* Main.html in Resources */,
@@ -592,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "website-improvements Extension/website_improvements_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6HH7K3R53J;
@@ -623,6 +624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "website-improvements Extension/website_improvements_Extension.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6HH7K3R53J;

@@ -1,3 +1,5 @@
+/*
+
 // Stolen directly from https://chrome.google.com/webstore/detail/reddit-auto-dark-mode/ejbbhcpkjnloojhfihmbfgkcjiaoecdg
 
 const darkThemeMq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
@@ -18,8 +20,7 @@ function switchTheme() {
 
     const observer = new MutationObserver(function(mutationList, observer) {
 
-        /* Sometimes the JavaScript that opens the drop down hasn't loaded in time for the first
-        click event so we try again here in case it hasn't opened */
+        // Sometimes the JavaScript that opens the drop down hasn't loaded in time for the first click event so we try again here in case it hasn't opened
         openUserDropDown();
 
         var userDropDown = document.getElementsByClassName("_2uYY-KeuYHKiwl-9aF0UiL _1HSQGYlfPWzs40LP4_oFi5 _2XkHtsPtFuTExJyk9JQUAp")[0];
@@ -79,3 +80,4 @@ function isLoggedIn() {
         return true;
     }
 }
+*/

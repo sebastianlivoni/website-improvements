@@ -4,29 +4,6 @@
 <dict>
 	<key>NSExtension</key>
 	<dict>
-		<key>SFSafariStyleSheet</key>
-		<array>
-			<dict>
-				<key>Style Sheet</key>
-				<string>proton/styling.css</string>
-			</dict>
-			<dict>
-				<key>Style Sheet</key>
-				<string>twitter/styling.css</string>
-			</dict>
-			<dict>
-				<key>Style Sheet</key>
-				<string>github/styling.css</string>
-			</dict>
-			<dict>
-				<key>Style Sheet</key>
-				<string>google/styling.css</string>
-			</dict>
-			<dict>
-				<key>Style Sheet</key>
-				<string>reddit/styling.css</string>
-			</dict>
-		</array>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.Safari.web-extension</string>
 		<key>NSExtensionPrincipalClass</key>

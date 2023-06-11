@@ -2,17 +2,27 @@
     "manifest_version": 3,
     "default_locale": "en",
 
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "name": "Seb's Website Improvement",
+    "description": "Seb's Website Improvement",
     "version": "1.0",
 
     "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png",
-        "256": "images/icon-256.png",
-        "512": "images/icon-512.png"
+        "48": "images/image.png",
+        "96": "images/image.png",
+        "128": "images/image.png",
+        "256": "images/image.png",
+        "512": "images/image.png"
     },
+    
+    "permissions": [
+        "<all_urls>",
+        "cookies",
+        "storage",
+        "unlimitedStorage",
+        "webNavigation",
+        "notifications",
+        "nativeMessaging"
+    ],
 
     "content_scripts": [
         {
@@ -26,7 +36,8 @@
         },
         {
             "js": [ "github/content.js" ],
-            "matches": [ "*://*.github.com/*" ],
+            "css": ["github/styling.css"],
+            "matches": [ "*://*.github.com/*" ]
         },
         {
             "css": [ "twitter/styling.css" ],
@@ -41,14 +52,12 @@
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "images/rocket-icon-16.png",
-            "19": "images/rocket-icon-19.png",
-            "32": "images/rocket-icon-32.png",
-            "38": "images/rocket-icon-38.png",
-            "48": "images/rocket-icon-48.png",
-            "72": "images/rocket-icon-72.png"
+            "16": "images/image.png",
+            "19": "images/image.png",
+            "32": "images/image.png",
+            "38": "images/image.png",
+            "48": "images/image.png",
+            "72": "images/image.png"
         }
-    },
-
-    "permissions": [ ]
+    }
 }
